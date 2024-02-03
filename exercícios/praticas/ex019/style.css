@@ -1,0 +1,34 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Biryani:wght@200;300;400;600;700;800;900&display=swap');
+
+body {
+    background-color: #07dc074f;
+}
+
+h1 {
+    font: normal 700 2em 'Biryani', Arial, Helvetica, sans-serif;
+}
+
+ #principal {
+    background-color: green;
+    color: rgb(255, 255, 255);
+    font: normal 900 2em 'Biryani', Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.basico {
+    color: blue;
+    font: normal bolder 4em arial, sans-serif;
+}
+
+.inter {
+    color: chocolate;
+}
+
+.avan {
+    color: blueviolet;
+}
+p {
+    font: normal 400 1em 'Biryani', Arial, Helvetica, sans-serif;
+}

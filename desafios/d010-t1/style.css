@@ -1,0 +1,90 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'idroid';
+    src: url('fontes/IDroid.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: osvaldo;
+    src: url('fontes/Oswald-VariableFont_wght.ttf') format('truetype');
+    font-weight: 400;
+}
+
+body {
+    background-color: #84e1ad;
+    margin: 0px;
+}
+
+header  {
+    background-image: linear-gradient(to top, #103923, #079f4c);
+    margin: 0px;
+    padding: 10px;
+}
+
+header > h1 {
+    font: normal normal 2em 'osvaldo';
+    color: white;
+    text-align: center;
+}
+
+header > p {
+    font: normal lighter 1em 'arial';
+    text-align: center;
+    color: white;
+    margin: 20 px;
+    padding: 10px;
+}
+
+nav > a {
+    font: normal bold 1em arial;
+    color: #35a969;
+    text-decoration: none;
+    padding: 10px 5px;
+    border-radius: 5px;    
+}
+
+nav > a:hover {
+    background-color: #35a969;
+    color: #2ffc8b;
+}
+
+main {
+    background-color: white;
+    margin: 0px 75px;
+    padding: 10px;
+}
+
+section > h1 {
+    font: normal normal 25px 'idroid';
+    color: #145a35;
+}
+
+section > p {
+    font: normal normal 1em arial;
+    text-align: justify;
+    text-indent: 20px;
+}
+
+section > h2 {
+    background-image: linear-gradient(to right, #2a915a5c, white);
+    font: normal normal 20px 'idroid';
+    color: #145a35;
+    padding: 0px 5px;
+}
+
+strong {
+    color: #079f4c;
+}
+
+p > a {
+    text-decoration: none;
+}
+
+img {
+    text-align: center;
+    width: 570px;
+    margin: auto;
+}
