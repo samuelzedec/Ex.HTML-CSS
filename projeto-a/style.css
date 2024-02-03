@@ -57,8 +57,7 @@ header {
 }
 
 header img {
-    max-width: 400px;
-    min-width: 250px;
+    max-width: 250px;
     padding: 10px;
 }
 
@@ -130,12 +129,8 @@ section > h2 {
     color: white;
 }
 
-section > img {
-    max-width: 400px;
-    max-height: 400px;
-
-    min-width: 250px;
-    min-height: 250px;
+section  img {
+    width: 100%;
 }
 
 section > h2 {
