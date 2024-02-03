@@ -1,3 +1,3 @@
-Olá, me chamo Samuel Zedec.
+Olá Mundo! Me chamo Samuel Zedec...
 
-E esse é meu repertorio!
+Este vai ser meu portifólio futuro, estou começando aprender HTML5 e CSS3 com o curso em vídeo!
