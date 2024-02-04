@@ -28,8 +28,6 @@ nav {
     padding: 10px;
     text-align: center;
     text-shadow: 1px 1px 1px rgb(0, 0, 0);
-
-    min-width: 350px;
 }
 
 nav  a {
@@ -49,15 +47,17 @@ nav a:hover {
     text-shadow: none;
 }
 header {
-    text-align: center;
     background-color: var(--cor01);
-    min-width: 350px;
-
 }
 
-header img {
-    max-width: 300px;
-    padding: 10px;
+header > div { 
+    max-width: 350px;
+    margin: auto;
+    text-align: center;
+}
+
+div img {
+    width: 80%;
 }
 
 main {
