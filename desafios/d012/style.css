@@ -10,5 +10,9 @@
     
     --cor01: black;
     --cor02: white;
-}
+} 
 
+body {
+    background-color: var(--cor01);
+    color: var(--cor02);
+}
