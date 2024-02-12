@@ -12,6 +12,7 @@
             border: 1px solid black;
             border-collapse: collapse;
             width: 300px;
+            position: relative;
         }  
 
         caption {
@@ -22,6 +23,25 @@
             padding: 5px;
         }
 
+        thead, tfoot {
+            background-color: #323030;
+            color: white;
+        }
+
+        thead > tr > th {
+            position: sticky;
+            top: -1px;
+            background-color: #323030;
+        }
+
+        tbody > tr:nth-child(odd) {
+            background-color: lightblue;
+        }
+
+        tbody > tr:nth-child(even) {
+            background-color: lightcoral;
+        }
+        
         th {
             border: 1px solid black;
             padding: 5px;
@@ -31,11 +51,6 @@
             border: 1px solid black;
             padding: 5px;
             text-align: left;
-        }
-
-        thead, tfoot {
-            background-color: #323030;
-            color: white;
         }
 
         .number {
