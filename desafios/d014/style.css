@@ -53,8 +53,8 @@ main {
 }
 
 .logo:hover {
-    border: 2px solid #ffffff;
+    border: 1px solid #ffffff;
     transform: translate(-2px, -2px);
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.729);
-    transition: tranform 0.2s, border 0.5s;
+    transition: tranform 0.2s;
 }
