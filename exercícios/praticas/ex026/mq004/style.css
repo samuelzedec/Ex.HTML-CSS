@@ -1,0 +1,130 @@
+@charset "UTF-8";
+
+/*Versão Mobile first*/
+@media all {
+    * {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1.3em;
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+    }
+
+    html {
+        width: 100vw;
+        height: 100vh;
+    }
+
+    body {
+        background: black url(imagens/back-phone.jpg) no-repeat center center fixed;
+        background-size: cover;
+    }
+
+    main {
+        background-color: rgba(255, 255, 255, 0.386);
+        width: 90vw;
+        margin: 10px auto;
+        border-radius: 15px;
+    }
+
+    h1 {
+        text-align: center;
+        color: white;
+        text-shadow: 2px 2px 2px black;
+        padding: 15px 10px;
+    }
+
+    img {
+        display: block;
+        margin: auto;
+    }
+
+    #tablet, #notebook, #televisao, #impressora {
+        display: none;
+    }
+
+    #celular {
+        display: block;
+    }
+}
+
+/*Tablets*/
+@media screen and (min-width: 768px)and (max-width: 992px) {
+    body {
+        background: black url(imagens/back-tablet.jpg) no-repeat center center fixed;
+        background-size: cover;
+    }   
+
+    #celular, #notebook, #televisao, #impressora {
+        display: none;
+    }
+
+    #tablet {
+        display: block;
+    }
+
+    main {
+        background-color: rgba(128, 128, 128, 0.449);
+    }
+
+}
+
+/*Notebooks e desktops*/
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+    body {
+        background: black url(imagens/back-pc.jpg) no-repeat center center fixed;
+        background-size: cover;
+    }   
+
+    #celular, #tablet, #televisao, #impressora {
+        display: none;
+    }
+
+    #notebook {
+        display: block;
+    }
+
+    main {
+        background-color: rgba(255, 255, 255, 0.449);
+    }
+}
+
+/*TV`s*/
+@media screen and (min-width: 1200px) {
+    body {
+        background: black url(imagens/back-tv.jpg) no-repeat center center fixed;
+        background-size: cover;
+    }   
+
+    #celular, #notebook, #tablet, #impressora {
+        display: none;
+    }
+
+    #televisao {
+        display: block;
+    }
+
+    main {
+        background-color: rgba(128, 128, 128, 0.449);
+    }
+}
+
+/*Impressora*/
+@media print {
+    #celular, #tablet, #notebook, #televisao {
+        display: none;
+    }
+
+    #impressora {
+        display: block;
+    }
+
+    main {
+        background-color: gray;
+        border: 1px solid black;
+    }
+
+    body::after {
+        content: 'Essa impressão foi feita atráves do site www.zzz.com'
+    }
+}
