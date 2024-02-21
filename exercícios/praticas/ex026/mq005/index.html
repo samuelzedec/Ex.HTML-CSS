@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Menu responsivo</title>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet"/>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -11,7 +12,9 @@
         <h1>
             Meu site
         </h1>
-        <menu>
+        <span id="menu" class="material-symbols-outlined" onclick="clickMenu()">List</span>
+        <menu id="aba">
+            
             <ul>
                 <li>Opção 1</li>
                 <li>Opção 2</li>
@@ -40,5 +43,14 @@
             </p>
         </article>
     </main>
+    <script>
+        function clickMenu() {
+            if (aba.style.display == 'block') {
+                aba.style.display = 'none'
+            } else {
+            aba.style.display = 'block'
+            }
+        }
+    </script>
 </body>
 </html>
