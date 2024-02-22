@@ -79,3 +79,30 @@
         margin: 15px;
     }
 }
+
+/*Para os demais dispositvos*/
+@media screen and (min-width: 768px) {
+    main {
+        max-width: 800px;
+    }
+
+    #menu {
+        display: none;
+    }
+
+    menu {
+        display: block;
+        text-align: center;
+    }
+
+    li {
+        display: inline-block;
+        border: 1px solid black;
+        margin: 5px 10px;
+    }
+
+    li:hover {
+        background-color: black;
+        color: white;
+    }
+}

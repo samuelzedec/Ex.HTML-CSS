@@ -7,7 +7,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet"/>
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body onresize="mudouTamanho()">
     <header>
         <h1>
             Meu site
@@ -49,6 +49,14 @@
                 aba.style.display = 'none'
             } else {
             aba.style.display = 'block'
+            }
+        }
+
+        function mudouTamanho() {
+            if (window.innerWidth>= 768) {
+                aba.style.display = 'block'
+            } else {
+                aba.style.display = 'none'
             }
         }
     </script>
